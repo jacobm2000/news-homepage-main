@@ -34,7 +34,7 @@ Users should be able to:
 
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://jacobm2000.github.io/news-homepage-main/)
 
 
 ### Built with
