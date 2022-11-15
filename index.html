@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
-
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,30 +18,65 @@
   </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5">
+    <a class="navbar-brand" href="#" id="brand"><img src="assets/images/logo.svg" id="logo" alt=" W logo" srcset=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">New</a>
+        <a class="nav-item nav-link" href="#">Popular</a>
+        <a class="nav-item nav-link" href="#">Trending</a>
+        <a class="nav-item nav-link" href="#">Categories</a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      <img src="assets/images/image-web-3-desktop.jpg"  id="top-img" alt="" srcset="">
+      <div class="container-grid-3">
+        <h1 class="grid-item col-md"  id="head">The Bright Future of Web 3.0?</h1>
+        <p class="grid-item col-md" id="top-par"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?<br><br><button class="btn-secondary"> Read more</button></p>
+        </div>
+        </div>
+      <div class=" container-grid2">
+      <h2 id="new">New </h2>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <h5 id="new-title">Hydrogen VS Electric Cars</h5>
+  <P id="new-desc">
+    
+  Will hydrogen-fueled cars ever catch up to EVs?
+  <hr>
 
-  The Bright Future of Web 3.0?
+  </p>
+  
+ <h5 id="new-title">The Downsides of AI Artistry</h5>
+ <p id="new-desc">
+  What are the possible adverse effects of on-demand AI image generation?
+  <hr>
+  </p>
+  
+  <h5 id="new-title"> VC Funding Drying Up?</h5>
+  <p id="new-desc"> Is Private funding by VC firms is down 50% YOY. We take a look at what that means.
+</p>
+    </div>
+    
+    </div>
+   
+    
+  
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+</div>
+
+ 
 
   Read more
 
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+  
 
   01
   Reviving Retro PCs

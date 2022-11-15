@@ -1,0 +1,84 @@
+#brand{
+
+    margin-right: 60%;
+}
+
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:hsl(236, 13%, 42%);
+    height: 1px;
+}
+#logo{
+    
+    margin-left: 7rem;
+    width: 30%;
+    
+}
+.container
+{
+
+  
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    
+    
+}
+
+#grid-item{
+
+}
+.container-grid2
+{
+    display: grid;
+  
+    padding: rem;
+    background-color:hsl(240, 100%, 5%);
+    grid-template-columns: auto;
+    grid-column-gap: 0px;
+    width: 20rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+.container-grid-3
+{
+display: grid;
+grid-column-gap: 0px;
+grid-template-columns: auto auto;
+
+}
+#top-img{
+    width: 100%;
+    
+}
+#head{
+    width: 15rem;
+}
+#new-desc{
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    
+    
+}
+#new-title{
+    text-align: left;
+    color:hsl(36, 100%, 99%);
+}
+#new{
+    color:hsl(35, 77%, 62%);
+}
+#top-par{
+   margin-left: 10rem;
+   width: 70%;
+}
+.btn-secondary{
+    width: 8rem;
+    height:2rem;
+    background-color:hsl(5, 85%, 63%);
+    border: none;
+   
+}
