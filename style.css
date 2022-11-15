@@ -1,6 +1,6 @@
 #brand{
 
-    margin-right: 60%;
+    margin-right: 47%;
 }
 
 hr{
@@ -27,9 +27,6 @@ hr{
     
 }
 
-#grid-item{
-
-}
 .container-grid2
 {
     display: grid;
@@ -44,6 +41,7 @@ hr{
 }
 .container-grid-3
 {
+margin-top: 1rem;
 display: grid;
 grid-column-gap: 0px;
 grid-template-columns: auto auto;
@@ -55,6 +53,7 @@ grid-template-columns: auto auto;
 }
 #head{
     width: 15rem;
+    font-weight: 700;
 }
 #new-desc{
     color: hsl(233, 8%, 79%);
@@ -81,4 +80,26 @@ grid-template-columns: auto auto;
     background-color:hsl(5, 85%, 63%);
     border: none;
    
+}
+#bottom-img{
+    width: 30%;
+    margin:0px
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.card-text{
+    width: 12rem;
+    font-size: 10px;
+}
+#b-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.card{
+    margin-left: 0rem;
+}
+.card-title{
+    color: hsl(233, 8%, 79%);
 }
