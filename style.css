@@ -2,7 +2,14 @@
 
     margin-right: 47%;
 }
-
+@font-face 
+{
+    font-family:inter;
+    src:url(assets/fonts/static/Inter-Regular.ttf)
+}
+body{
+    font-family: inter;
+}
 hr{
     border: 0;
     clear:both;
@@ -49,10 +56,13 @@ grid-template-columns: auto auto;
 }
 #top-img{
     width: 100%;
+    margin-bottom: 2rem;
     
 }
 #head{
-    width: 15rem;
+    
+    clear: both;
+    width: 15rem!important;
     font-weight: 700;
 }
 #new-desc{
@@ -66,6 +76,7 @@ grid-template-columns: auto auto;
 #new-title{
     text-align: left;
     color:hsl(36, 100%, 99%);
+    font-weight:700 ;
 }
 #new{
     color:hsl(35, 77%, 62%);
@@ -92,6 +103,7 @@ grid-template-columns: auto auto;
 .card-text{
     width: 12rem;
     font-size: 10px;
+    font-weight: 300;
 }
 #b-title{
     font-size: 15px;
@@ -99,7 +111,69 @@ grid-template-columns: auto auto;
 }
 .card{
     margin-left: 0rem;
+    max-width: 275px;
 }
 .card-title{
     color: hsl(233, 8%, 79%);
+    font-weight: 700;
 }
+
+body{
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width: 375px) {
+    #logo{
+    
+        margin-left: 1rem;
+        width: 50%;
+        
+    }
+    
+    #brand{
+
+        margin-right: 20%;
+    } 
+
+    #top-img{
+        width: 300px;
+        height: 300px;
+        
+    }
+    .container-grid2
+    {
+    display: grid;
+    margin-top: 3rem;
+    margin-left:1rem;
+    }
+
+    .container
+{
+
+  
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    
+    
+}
+   #head{
+    width: 100%;
+    line-height: 40px;
+   }
+   #top-par{
+    width: 100%;
+   }
+   .card-img{
+    margin-top: 20px;
+    max-width: 150px;
+    
+   }
+   .card-text{
+    margin-top: 0px;
+    width: 8rem;
+    font-size: 10px;
+}
+br{
+   
+}
+  }
